@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40ECE6CC"
+    android:orientation="vertical"
+    tools:context="org.techtown.beebus.findPassward">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="389dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-15dp"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/register1" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView13"
+            android:layout_alignEnd="@+id/imageView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="21dp"
+            android:text="비밀번호 찾기"
+            android:textColor="#F1C40F"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/et_key"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ia2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint=" 카드키번호입력"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ed_key"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint=" 아이디 입력"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/ia2"
+                android:layout_width="374dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/et_id"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/register2"
+                android:gravity="center|start"
+                android:text="     Key입력"
+                android:textColor="#F1C40F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ed_key"
+                android:layout_width="374dp"
+                android:layout_height="54dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/register2"
+                android:gravity="center|start"
+                android:text="     아이디 입력"
+                android:textColor="#F1C40F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/et_key"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/back" />
+
+            <Button
+                android:id="@+id/okbtn"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/et_key"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="onseta"
+                android:text="확인"
+                app:srcCompat="@drawable/back" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

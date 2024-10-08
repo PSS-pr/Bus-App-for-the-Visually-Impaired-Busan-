@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40ECE6CC"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40ECE6CC">
+
+        <ImageView
+            android:id="@+id/바퀴1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="107dp"
+            app:srcCompat="@drawable/goo" />
+
+        <ImageView
+            android:id="@+id/바퀴2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="68dp"
+            app:srcCompat="@drawable/goo" />
+
+        <ImageView
+            android:id="@+id/상단버스이미지"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-11dp"
+            android:layout_marginEnd="0dp"
+            app:srcCompat="@drawable/background" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="-3dp"
+            android:text="하차벨"
+            android:textAlignment="center"
+            android:textColor="#F1C40F"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="161dp"
+            android:layout_marginEnd="151dp"
+            android:text="62번 버스"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="206dp"
+            android:text="탑승 중"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <ImageButton
+            android:id="@+id/button111"
+            android:layout_width="370dp"
+            android:layout_height="380dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="70dp"
+            app:srcCompat="@drawable/pressbell2" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

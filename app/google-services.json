@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "172609241575",
+    "firebase_url": "https://rafa-b5638-default-rtdb.firebaseio.com",
+    "project_id": "rafa-b5638",
+    "storage_bucket": "rafa-b5638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172609241575:android:77a3948ac386fdd8553d42",
+        "android_client_info": {
+          "package_name": "org.techtown.beebus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172609241575-at9djkupn91cvojqfr6ig2v73otl2ess.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJuN-jPwVHszjKFZ2TWdEKswVVZ0RnUio"
+        },
+        {
+          "current_key": "AIzaSyD5K1vq3RqOW5H1rZSDQe580eGVQf-o7SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172609241575-at9djkupn91cvojqfr6ig2v73otl2ess.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172609241575:android:b7f434a2d4d050f6553d42",
+        "android_client_info": {
+          "package_name": "org.techtown.busui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172609241575-at9djkupn91cvojqfr6ig2v73otl2ess.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJuN-jPwVHszjKFZ2TWdEKswVVZ0RnUio"
+        },
+        {
+          "current_key": "AIzaSyD5K1vq3RqOW5H1rZSDQe580eGVQf-o7SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172609241575-at9djkupn91cvojqfr6ig2v73otl2ess.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172609241575:android:b0688c69f07f9558553d42",
+        "android_client_info": {
+          "package_name": "org.techtown.db1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172609241575-at9djkupn91cvojqfr6ig2v73otl2ess.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJuN-jPwVHszjKFZ2TWdEKswVVZ0RnUio"
+        },
+        {
+          "current_key": "AIzaSyD5K1vq3RqOW5H1rZSDQe580eGVQf-o7SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172609241575-at9djkupn91cvojqfr6ig2v73otl2ess.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

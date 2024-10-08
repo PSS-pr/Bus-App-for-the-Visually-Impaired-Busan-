@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.techtown.beebus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeeBus"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".busrecycle"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2a"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".wait"
+            android:exported="false" />
+        <activity
+            android:name=".pro"
+            android:exported="true" />
+        <activity
+            android:name=".homepage"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".stopbell"
+            android:exported="false" />
+        <activity
+            android:name=".passwardchange2"
+            android:exported="false" />
+        <activity
+            android:name=".passwardchange"
+            android:exported="false" />
+        <activity
+            android:name=".informationcorrect"
+
+            android:exported="true" >
+
+        </activity>
+
+        <activity
+            android:name=".search"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name=".findPassward"
+            android:exported="false" />
+        <activity
+            android:name=".findId"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".start"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+
+            android:exported="true" >
+
+
+
+        </activity>
+        <activity
+            android:name=".wait"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="google map apikey " />
+    </application>
+
+</manifest>
